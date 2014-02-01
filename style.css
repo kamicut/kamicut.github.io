@@ -23,7 +23,12 @@ h1 {
 #projects a:hover {
 	color: white;
 }
-
+p {
+	margin-top: 20px;	
+}
+strong {
+	font-weight: normal;
+}
 #projects {
 	padding: 20px;
 	margin-bottom: 20px;
@@ -48,4 +53,8 @@ a:visited {
 a:hover {
 	background-color: black;
 	color: white;
+}
+
+nav {
+	margin-top: 100px;
 }
