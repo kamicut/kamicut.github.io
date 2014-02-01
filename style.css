@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	font-weight: 100;
+	max-width: 800px;
+	margin: 0 auto;
+}
+h1 {
+	margin-bottom: 20px
+}
+#container {
+	margin-top: 200px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#projects a {
+	color: black;
+}
+#projects a:hover {
+	color: white;
+}
+
+#projects {
+	padding: 20px;
+	margin-bottom: 20px;
+	border: 1px solid black;
+	height: 150px;
+}
+
+ul {
+	list-style: none;
+}
+a:link {
+	color: red;
+}
+a {
+	color: black;
+	background-color: white;
+	text-decoration: none;
+}
+a:visited {
+	color: red;
+}
+a:hover {
+	background-color: black;
+	color: white;
+}
