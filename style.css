@@ -4,9 +4,10 @@
 }
 
 body {
-	font-family: sans-serif;
-	font-weight: 100;
-	max-width: 800px;
+	font-family: helvetica;
+	font-weight: normal;
+	font-size: 15px;
+	max-width: 500px;
 	margin: 0 auto;
 }
 h1 {
@@ -17,10 +18,18 @@ h1 {
 	margin-left: 20px;
 	margin-right: 20px;
 }
-#projects a {
+
+#footer {
+	margin-top: 200px;
+	font-size: 10px;
+	font-weight: 100;
+	text-align: center;
+}
+
+#footer a {
 	color: black;
 }
-#projects a:hover {
+#footer a:hover {
 	color: white;
 }
 p {
@@ -29,13 +38,6 @@ p {
 strong {
 	font-weight: normal;
 }
-#projects {
-	padding: 20px;
-	margin-bottom: 20px;
-	border: 1px solid black;
-	height: 150px;
-}
-
 ul {
 	list-style: none;
 }
