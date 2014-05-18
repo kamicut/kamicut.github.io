@@ -4,13 +4,13 @@
 }
 
 body {
-	font-family: helvetica;
-	font-weight: normal;
+	font-family: "Hoefler Text", Constantia, "Bitstream Charter", Palatino, "Palatino Linotype", serif;	font-weight: normal;
 	font-size: 15px;
 	max-width: 500px;
 	margin: 0 auto;
 }
 h1 {
+	font-family:'Lucida Grande', sans-serif;
 	margin-bottom: 20px
 }
 #container {
