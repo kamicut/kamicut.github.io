@@ -5,7 +5,7 @@
 "use strict";
 
 //FFT based smooth life
-var INNER_RADIUS = 1.32 * 2;
+var INNER_RADIUS = 1.32;
 var OUTER_RADIUS = 3 * INNER_RADIUS;
 var B1 = 0.278//- 0.01 + (Math.random() * 0.1);
 var B2 = 0.365 - 0.05 + (Math.random() * 0.1);
@@ -13,7 +13,7 @@ var D1 = 0.267// - 0.1 + (Math.random() * 0.1);
 var D2 = 0.445 -0.05+ (Math.random() * 0.1);
 var ALPHA_N = 0.028;
 var ALPHA_M = 0.147;
-var LOG_RES = 7;
+var LOG_RES = 6;
 
 //Coloring stuff
 var color_shift = [0, 0, 0];
