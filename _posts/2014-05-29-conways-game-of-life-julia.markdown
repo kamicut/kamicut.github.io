@@ -13,7 +13,7 @@ This is a remarkably elegant way of representing the transition between states. 
 
 Here's my implementation in Julia:
 
-{% highlight julia %}
+```julia
 using Base.Graphics
 using Cairo
 using Tk
@@ -44,7 +44,7 @@ end
 
 # Create a 500x500 board for 500 generations
 iterate(500,500)
-{% endhighlight %}
+```
 
 While `imfilter` doesn't necessarily use `fft` internally, my next task is to run benchmarks on different ways of computing the neighbors matrix. 
 
