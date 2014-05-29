@@ -17,7 +17,7 @@ body {
   font: 13.34px 'PT Serif', serif;
   font-size: small;
   text-align: center;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -188,17 +188,6 @@ pre {
   white-space: pre-wrap;
 }
 
-pre, pre > code {
-  /* Make more code fit on small screens */
-  font-size: 14px;
-}
-
-@media only screen and (min-width: 481px) {
-  pre, pre > code {
-    /* Bigger font on bigger screens */
-    font-size: 16px;
-  }
-}
 @media screen and (max-width: 768px) {
   .home h1 {
     font-size: 2em;
