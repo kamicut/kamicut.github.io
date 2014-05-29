@@ -17,6 +17,8 @@ body {
   font: 13.34px 'PT Serif', serif;
   font-size: small;
   text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -80,12 +82,15 @@ a:visited { color: red; }
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
+  margin-left: 20px;
+  margin-right: 20px;
   line-height: 1.5em;
   margin-top: 120px;
 }
 
+.header {
+  margin-bottom: 20px;
+}
 .header a {
   font-weight: bold;
   text-decoration: none;
@@ -177,4 +182,28 @@ h1 {
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+pre, pre > code {
+  /* Make more code fit on small screens */
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 481px) {
+  pre, pre > code {
+    /* Bigger font on bigger screens */
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home h1 {
+    font-size: 2em;
+  }
+  .site {
+    margin-top: 30px;
+  }
 }
