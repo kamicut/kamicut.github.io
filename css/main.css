@@ -30,9 +30,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: .5em; }
 p { margin: 1em 0; }
 
-a         { color: #c3322f; text-decoration: none;}
+a         { color: #e33; text-decoration: none;}
 a:hover   { color: #000 !important;}
-a:visited { color: #c3322f; }
+a:visited { color: #e33; }
 
 /*****************************************************************************/
 /*
