@@ -154,8 +154,9 @@ h1 {
   font-size: 1.3em;
 }
 .post pre {
+  color: #ccc;
   border: 1px solid #ddd;
-  background-color: #eef;
+  background-color: #2d2d2d;
   padding: 0 .4em;
 }
 
@@ -171,6 +172,7 @@ h1 {
 
 .post pre code {
   border: none;
+  background-color: #2d2d2d;
 }
 
 /* terminal */
