@@ -9,11 +9,11 @@ While looking at [this][notebooks] page on notable iPython notebooks, I [stumble
 
 Image filters are usually used to compute transformations such as blurring and sharpening. We pass a `kernel` over every pixel that computes the new image pixel based on its surroundings. For the game of life, if we treat the current state of the board as an image, we can pass a particular filter that will compute the neighbors around each pixel.
 
-This is a particularly elegant way of representing the transition between states. We can take advantage of the Fast Fourier Transform in image processing libraries to concisely write an implementation of GOL. 
+This is a remarkably elegant way of representing the transition between states. We can take advantage of the Fast Fourier Transform in image processing libraries to concisely write an implementation of GOL. 
 
 Here's my implementation in Julia:
 
-{% highlight julia %}
+```julia
 using Base.Graphics
 using Cairo
 using Tk
@@ -44,7 +44,7 @@ end
 
 # Create a 500x500 board for 500 generations
 iterate(500,500)
-{% endhighlight %}
+```
 
 While `imfilter` doesn't necessarily use `fft` internally, my next task is to run benchmarks on different ways of computing the neighbors matrix. 
 
