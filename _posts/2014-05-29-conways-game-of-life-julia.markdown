@@ -22,7 +22,7 @@ using Images
 # Use an image filter to compute neighbors
 function evolve(grid)
     neighbors = imfilter(grid, [1 1 1; 1 9 1; 1 1 1]);
-    ((neighbors .== 11) | (neighbors .==12) | (neighbors .==3)) & 1
+    ((neighbors .== 11) | (neighbors .== 12) | (neighbors .== 3)) & 1
 end
 
 # Creates an NxN board for `iter` generations
