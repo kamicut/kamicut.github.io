@@ -1,3 +1,4 @@
 name: Data Point
 markdown: redcarpet
 pygments: true
+permalink: /:year/:month/:day/:title.html
