@@ -175,6 +175,11 @@ h1 {
   background-color: #2d2d2d;
 }
 
+.image {
+  max-width: 600px;
+  margin: 20px;
+}
+
 /* terminal */
 .post pre.terminal {
   border: 1px solid #000;
