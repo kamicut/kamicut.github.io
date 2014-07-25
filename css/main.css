@@ -178,6 +178,15 @@ h1 {
 .image {
   max-width: 600px;
   margin: 20px;
+  margin-bottom:30px;
+}
+.image img {
+  max-width: 100%;
+}
+
+.image caption {
+  font-size: 0.8em;
+  font-style: italic;
 }
 
 /* terminal */
