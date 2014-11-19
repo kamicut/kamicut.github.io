@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 [jq](https://stedolan.github.io/jq/) is a tool that we use at [Development Seed](http://developmentseed.org) when processing data at the command line for quick bash scripts. It has really powerful features for transforming, extracting and filtering JSON. It's good as a pipe into [json2csv](https://github.com/jehiah/json2csv), or another bash or python script. Handling nested data is however not very well documented. The following assumes that you've played around with `jq` or are at least familiar with it, because we'll get into some of its more obtuse syntax. 
@@ -202,4 +202,4 @@ map({(.country): {gini:.gini, gni: .gni, score: .score, rank: .rank}}) | add
 ```
 
 ## Conclusion
-`jq` is a pretty powerful tool as part of a data toolchain, and can handle a ton of JSON operations, but it's sometimes hard to figure out due to its complexity. Hopefully this small guide will help you with nested to flat record conversions in the future. 
+`jq` is a pretty powerful tool as part of a data toolchain, and can handle a ton of JSON operations, but it's sometimes hard to figure out due to its complexity. Hopefully this small guide will help you with nested to flat record conversions in the future.
