@@ -12,6 +12,7 @@ The manual for `jq` is [here](http://stedolan.github.io/jq/manual/) and I encour
 ## Record lists vs Nested objects
 
 A nested object looks like this:
+
 ```javascript
 {
   "BGD": {
