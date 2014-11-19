@@ -1,5 +1,8 @@
 ---
-published: true
+layout: post
+title:  "Using jq with nested objects"
+date:   2014-11-19 13:25:00
+categories: jq, data, webdev
 ---
 
 [jq](https://stedolan.github.io/jq/) is a tool that we use at [Development Seed](http://developmentseed.org) when processing data at the command line for quick bash scripts. It has really powerful features for transforming, extracting and filtering JSON. It's good as a pipe into [json2csv](https://github.com/jehiah/json2csv), or another bash or python script. Handling nested data is however not very well documented. The following assumes that you've played around with `jq` or are at least familiar with it, because we'll get into some of its more obtuse syntax. 
