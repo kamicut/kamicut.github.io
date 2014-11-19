@@ -13,7 +13,7 @@ The manual for `jq` is [here](http://stedolan.github.io/jq/manual/) and I encour
 
 A nested object looks like this:
 
-```javascript
+```
 {
   "BGD": {
     "gini": 32.12,
