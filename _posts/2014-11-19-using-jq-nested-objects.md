@@ -113,6 +113,7 @@ In this case we have to do:
 to_entries | map(.value |= {gini:.gini, gni:.gni}) | from_entries
 ```
 or use the shorthand
+
 ```
 with_entries(.value |= {gini:.gini, gni:.gni})
 ```
@@ -170,7 +171,8 @@ We use the `to_entries` function once again, combined with a map:
 to_entries  | map({country: .key, gni: .value.gni, gini: .value.gini, score: .value.score, rank: .value.rank})
 ```
 
-
+  
+  
 ### From record list to nested object
 
 ```javascript
