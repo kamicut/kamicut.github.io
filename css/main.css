@@ -167,8 +167,13 @@ h2, h3, h4 {
 
 .post h2 {
   margin-top: 2em;
+  font-size: 1.3em;
 }
 
+.post h3 {
+  color: #555;
+  text-decoration: underline;
+}
 .post ul, .post ol {
   margin-left: 1.35em;
 }
