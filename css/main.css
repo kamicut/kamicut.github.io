@@ -153,6 +153,11 @@ a:visited { color: #e33; }
 h1 {
   font-size: 1.3em;
 }
+h2, h3, h4 {
+  margin-top: 20px; 
+  margin-bottom: 10px;
+}
+
 .post pre {
   color: #ccc;
   border: 1px solid #ddd;
