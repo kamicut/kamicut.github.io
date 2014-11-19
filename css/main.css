@@ -172,8 +172,12 @@ h2, h3, h4 {
 
 .post h3 {
   color: #555;
-  text-decoration: underline;
 }
+
+.post h3:before {
+  content: "❱ ";
+}
+
 .post ul, .post ol {
   margin-left: 1.35em;
 }
