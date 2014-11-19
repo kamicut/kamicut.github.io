@@ -137,7 +137,7 @@ Here, `to_entries` turns the nested object into a `list` of the following form (
 
 We then `map` the elements into corresponding objects, keeping the `key, value` structure. Finally, we do the inverse operation `from_entries` to turn the list back into our nested object. 
 
-## From one format to another
+## Converting formats
 
 As an additional example, it is useful to look at the operations that turn the nested object structure into a collection and vice-versa. 
 
