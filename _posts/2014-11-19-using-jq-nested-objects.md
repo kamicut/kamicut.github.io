@@ -11,9 +11,9 @@ The manual for `jq` is [here](http://stedolan.github.io/jq/manual/) and I encour
 
 ## Record lists vs Nested objects
 
-A nested object looks like this:
+A nested object looks like this
 
-```
+```javascript
 {
   "BGD": {
     "gini": 32.12,
@@ -118,7 +118,8 @@ or use the shorthand
 with_entries(.value |= {gini:.gini, gni:.gni})
 ```
 
-Here, `to_entries` turns the nested object into a `list` of the following form (Note the explicit `key` and `value` attributes):
+Here, `to_entries` turns the nested object into a `list` of the following form (Note the explicit `key` and `value` attributes)
+
 ```javascript
 [
   {
