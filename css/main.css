@@ -14,8 +14,8 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font-family: 16px 'Vollkorn', serif;
-  line-height: 24px
+  font-family: 16px 'Vollkorn', serif !important;
+  line-height: 24px !important;
   text-align: center;
   max-width: 650px;
   margin: 0 auto;
