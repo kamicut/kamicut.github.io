@@ -12,27 +12,27 @@
 
 html, body { height: 100%; }
 
-body {re
+body {
   background-color: #FFF;
-  font: 13.34px 'PT Serif', serif;
-  font-size: small;
+  font-family: 16px 'Vollkorn', serif;
+  line-height: 24px
   text-align: center;
   max-width: 650px;
   margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; 
-  font-weight: 640;
-  font-family: "open sans", sans-serif;
+  font-size: 100%;
+  font-family: "Unica One", sans-serif;
+  text-transform: uppercase;
 }
 
 h1 { margin-bottom: .5em; }
 p { margin: 1em 0; }
 
-a         { color: #e33; text-decoration: none;}
+a         { color: #f00; text-decoration: none;}
 a:hover   { color: #000 !important;}
-a:visited { color: #e33; }
+a:visited { color: #f00; }
 
 /*****************************************************************************/
 /*
@@ -40,10 +40,17 @@ a:visited { color: #e33; }
 /*
 /*****************************************************************************/
 
+body {
+  background: url('/assets/small_steps.png');
+}
+
+.site {
+  padding: 20px;
+  background-color: white;
+}
 .home h1 {
   line-height: 50px;
   font-size: 3em;
-  text-transform: uppercase;
 }
 
 #c {
@@ -55,7 +62,7 @@ a:visited { color: #e33; }
 }
 
 #post-container {
-  margin-top: 50px
+  margin-top: 50px;
 }
 
 .posts {
@@ -70,7 +77,7 @@ a:visited { color: #e33; }
 .posts span {
   color: #aaa;
   font-family:  Monaco, "Courier New", monospace;
-  font-size: 80%;
+  font-size: 12px;
 }
 
 /*****************************************************************************/
@@ -92,7 +99,6 @@ a:visited { color: #e33; }
   margin-bottom: 20px;
 }
 .header a {
-  font-weight: bold;
   text-decoration: none;
 }
 
@@ -156,6 +162,7 @@ h1 {
 h2, h3, h4 {
   margin-top: 20px; 
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .post pre {
