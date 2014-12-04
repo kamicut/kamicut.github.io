@@ -1,4 +1,4 @@
 name: Data Point
 markdown: redcarpet
-highlighter: true
+pygments: true
 permalink: /:year/:month/:day/:title.html
