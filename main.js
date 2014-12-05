@@ -310,7 +310,6 @@ draw_field();
 
 setInterval(function() {
 	if (check_empty() < 1) {
-		console.log("empty")
 		B2 = 0.365 - 0.05 + (Math.random() * 0.1);
 		D2 = 0.445 -0.05+ (Math.random() * 0.2);
 		add_speckles(500, 1);
