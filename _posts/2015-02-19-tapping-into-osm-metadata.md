@@ -12,7 +12,7 @@ At Development Seed, we just launched [v0.1 of a new tool](https://github.com/os
 
 In 2014 alone, users committed over 6 million changesets to OSM. As OpenStreetMap's metadata grows, dealing with the sheer amount can be daunting. We built [osm-meta-util](https://github.com/osmlab/osm-meta-util) as an experiment in making OSM metadata easier and faster to use.
 
-![Running the utility]({{ site.url }}/images/gifs/osm-meta.gif)
+![Running the utility](http://devseed.com/images/gifs/osm-meta.gif)
 
 osm-meta-util focuses on two core functions: downloading the minutely compressed metadata files and serializing into JSON. We convert compressed OSM XML files containing multiple commits to a stream of JSON objects that can be piped to any tool or API. 
 
