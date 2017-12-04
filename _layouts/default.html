@@ -1,55 +1,63 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width,user-scalable=no">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width,user-scalable=no">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/oceanic80.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/main.css">
 
-        <!-- Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Sanchez:400,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400' rel='stylesheet' type='text/css'>
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/oceanic80.css">
 
-    </head>
-    <body>
+  <!-- Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
-        <div class="site">
-          <div class="header">
-          <a class="extra" href="/">home</a>
-          <a class="extra" href="/posts.html">posts</a>
-          </div>
+</head>
 
-          {{ content }}
+<body>
 
-          <div class="footer">
-            <div class="contact">
-            <p class= "contactinfo">
-              <a href="https://twitter.com/kamicut">twitter</a> / 
-              <a href="https://github.com/kamicut">github </a>/ 
-              <a href="mailto:marcfarra@gmail.com">email </a> 
-            </p>
-              <p class ="license">
-                <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <div class="site">
+    <div class="header">
+      <a class="extra" href="/">home</a>
+      <a class="extra" href="/posts.html">posts</a>
+    </div>
 
-          ga('create', 'UA-53198359-1', 'auto');
-          ga('send', 'pageview');
+    {{ content }}
 
-        </script>
-    </body>
+    <div class="footer">
+      <div class="contact">
+        <p class="contactinfo">
+          <a href="https://twitter.com/kamicut">twitter</a> /
+          <a href="https://github.com/kamicut">github </a>/
+          <a href="mailto:marcfarra@gmail.com">email </a>
+        </p>
+        <p class="license">
+          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+            <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png"
+            />
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-53198359-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</body>
+
 </html>
