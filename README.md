@@ -2,9 +2,9 @@ kamicut.github.io
 =================
 
 This is the code and data that builds my personal website.
-I mostly write about the projects and experiments I'm working on, usually in [open data](http://github.com/openleb).
-
-The cool canvas animation next to my name was created based off of code by [Mikola Lysenko](http://github.com/mikolalysenko). His work is awesome and you should check it out.
+I mostly write about the projects and experiments I'm working on, such as:
+ - [OSM analytics](https://developmentseed.org/blog/2016/03/01/osm-stats-launched/)
+ - [Open Data for Lebanon](http://github.com/openleb).
 
 LICENSE
 =======
